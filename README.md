@@ -51,17 +51,17 @@ Run the program with the following command-line options:
 - `-h, -H`: Print help message and exit.
 - `-B, -b <value>`: Set syllable size (default: 64, options: 64 or 128).
 - `-F, -f <value>`: Set fuzzy level (default: 1, range: 1–4).
-- `-L, -l <value>`: Set minimum match length (default: 130).
-- `-i, -I <file>`: Specify input panel file (default: `chr16.vcf`).
+- `-L, -l <value>`: Set minimum match length .
+- `-i, -I <file>`: Specify input panel file .
 - `-o, -O <file>`: Specify output file (default: auto-generated based on parameters).
 - `-m, -M <mode>`: Query mode (`in` for in-panel, `out` for out-panel).
-- `-q, -Q <file>`: Specify query file for out-panel mode (default: `chr22_query.vcf`).
+- `-q, -Q <file>`: Specify query file for out-panel mode .
 - `-e, -even`: Enable position-based fuzzy panel creation (default: false, uses count-based mode).
 
 ### Example Commands
 1. Run an in-panel query with default parameters:
    ```bash
-   ./FSPBWT -m in -i panel.vcf
+   ./FSPBWT -m in -i panel.vcf -l 1000
    ```
 2. Run an out-panel query with custom parameters:
    ```bash
