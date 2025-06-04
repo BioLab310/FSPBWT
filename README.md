@@ -59,13 +59,13 @@ Run the program with the following command-line options:
 - `-e, -even`: Enable position-based fuzzy panel creation (default: false, uses count-based mode).
 
 ### Example Commands
-1. Run an in-panel query with default parameters:
+1. Run an in-panel query with custom parameters:
    ```bash
-   ./FSPBWT -m in -i panel.vcf -l 1000
+   ./FSPBWT -m in -i panel.vcf -q query.vcf -b 64 -f 1 -l 1000
    ```
 2. Run an out-panel query with custom parameters:
    ```bash
-   ./FSPBWT -m out -B 128 -F 2 -L 2000 -i panel.vcf -q query.vcf -o output.txt
+   ./FSPBWT -m out -B 128 -F 2 -L 2000 -i panel.vcf -q query.vcf 
    ```
 
 ## Output
