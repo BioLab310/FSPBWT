@@ -84,4 +84,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Contributions are welcome! Please submit a pull request or open an issue for bug reports or feature requests.
 
 ## Contact
-For questions or support, contact [your email] or open an issue on GitHub.
+For questions or support, contact [cyyneu@126.com] or open an issue on GitHub.
