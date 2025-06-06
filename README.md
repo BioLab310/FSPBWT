@@ -50,12 +50,12 @@ Run the program with the following command-line options:
 ### Options
 - `-h, -H`: Print help message and exit.
 - `-B, -b <value>`: Set syllable size (default: 64, options: 64 or 128).
-- `-F, -f <value>`: Set fuzzy level (default: 1, range: 1–4).
-- `-L, -l <value>`: Set minimum match length .
-- `-i, -I <file>`: Specify input panel file .
+- `-F, -f <value>`: Set fuzzy level (default: 2, range: 1–4).
+- `-L, -l <value>`: Set minimum match length(default: 500, bigger than $2B-1$) .
+- `-i, -I <file>`: Specify input panel file(default: panel.vcf) .
 - `-o, -O <file>`: Specify output file (default: auto-generated based on parameters).
 - `-m, -M <mode>`: Query mode (`in` for in-panel, `out` for out-panel).
-- `-q, -Q <file>`: Specify query file for out-panel mode .
+- `-q, -Q <file>`: Specify query file for out-panel mode (default: query.vcf) .
 - `-e, -even`: Enable position-based fuzzy panel creation (default: false, uses count-based mode).
 
 ### Example Commands
