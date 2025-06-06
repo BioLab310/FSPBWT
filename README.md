@@ -17,7 +17,6 @@ FSPBWT is a C++ program designed for processing and querying genomic data stored
   - `F`: Fuzzy level (1 to 4).
   - `L`: Minimum match length for queries.
   - `even`: Toggle for position-based fuzzy panel creation.
-- **Save/Load**: Save processed panels to binary files and load them for faster queries.
 - **Static Linking**: Ensures portability with static binary compilation.
 
 ## Prerequisites
