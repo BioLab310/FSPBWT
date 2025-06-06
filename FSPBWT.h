@@ -468,7 +468,6 @@ int FSPBWT<Syllable>::readTXT(string txt_file) {
     ifstream in(txt_file);
     if (in.fail())
         return 1;
-    in.rdbuf()->pubsetbuf(nullptr, BUFF_SIZE); // 缓冲区
 
     // 跳过前两行（COMMAND 和 SEED）
     string line;
