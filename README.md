@@ -60,7 +60,7 @@ Run the program with the following command-line options:
 ### Example Commands
 1. Run an in-panel query with custom parameters:
    ```bash
-   ./FSPBWT -m in -i panel.vcf -q query.vcf -b 64 -f 1 -l 1000
+   ./FSPBWT -m in -i panel.vcf  -b 64 -f 1 -l 1000
    ```
 2. Run an out-panel query with custom parameters:
    ```bash
