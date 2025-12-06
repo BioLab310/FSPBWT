@@ -5,7 +5,11 @@
 FSPBWT is a C++ program designed for processing and querying genomic data stored in VCF (Variant Call Format) files. It supports fuzzy panel creation and querying with configurable parameters for in-panel and out-panel queries. The program allows saving and loading preprocessed panels for efficient querying and supports different syllable sizes (64 or 128 bits) and fuzzy levels.
 
 Multi-Allelic FSPBWT is on https://github.com/BioLab310/mFSPBWT .
+
 WildCard FSPBWT is on https://github.com/cui201216/wildcard-FSPBWT .
+
+Wildcard-multi FSPBWT is on https://github.com/cui201216/wildcard-multi-FSPBWT 。
+
 ## Features
 - **Input/Output**: Reads VCF files for panel and query data, outputs results to text files.
 - **Fuzzy Panel Creation**: 
