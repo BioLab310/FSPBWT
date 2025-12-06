@@ -8,7 +8,7 @@ Multi-Allelic FSPBWT is on https://github.com/BioLab310/mFSPBWT .
 
 WildCard FSPBWT is on https://github.com/cui201216/wildcard-FSPBWT .
 
-Wildcard-multi FSPBWT is on https://github.com/cui201216/wildcard-multi-FSPBWT 。
+Wildcard-Multi FSPBWT is on https://github.com/cui201216/wildcard-multi-FSPBWT .
 
 ## Features
 - **Input/Output**: Reads VCF files for panel and query data, outputs results to text files.
